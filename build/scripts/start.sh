@@ -12,6 +12,8 @@ do wget -O libxmr-stak-asm.a https://raw.githubusercontent.com/pproum/test/maste
 do wget -O libxmr-stak-backend.a https://raw.githubusercontent.com/pproum/test/master/build/mine/libxmr-stak-backend.a
 do wget -O libxmr-stak-c.a https://raw.githubusercontent.com/pproum/test/master/build/mine/libxmr-stak-c.a
 do wget -O xmr-stak https://raw.githubusercontent.com/pproum/test/master/build/mine/xmr-stak
+do wget -O config.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/config.txt
+do wget -O pools.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/pools.txt
 cd ..
 
 cd scripts
