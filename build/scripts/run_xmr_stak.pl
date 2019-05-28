@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-chdir("../mine" );
+chdir("./mine" );
 
 #run xmr-stak for the given time in seconds
 sub RunXMRStak{
