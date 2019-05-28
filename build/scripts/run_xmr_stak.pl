@@ -23,9 +23,9 @@ sub RunXMRStak{
 
 do
 {
-	my $secondsMultiplier = 30;
+	my $secondsMultiplier = 10;
 	
-	my $runningRatio = 100;
+	my $runningRatio = 80;
 	my $randomNumerRunning = int(rand($runningRatio));
 	my $runningTime = $secondsMultiplier*$randomNumerRunning;
 
