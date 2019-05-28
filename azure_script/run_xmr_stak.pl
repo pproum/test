@@ -32,8 +32,6 @@ do
 	my $randomNumerSleep = int(rand($sleepRatio));
 	my $sleepTime = $secondsMultiplier*$randomNumerSleep;
 
-    CreateConfig();    
-
     #now run xmr-stak with the optimum setting 
     RunXMRStak($runningTime, "config.txt", "pools.txt");
 
