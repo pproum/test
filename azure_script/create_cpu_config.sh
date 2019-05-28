@@ -10,9 +10,9 @@ if [ -z "$1" ] ||  [ $1 -eq 0 ]
 echo '"cpu_threads_conf" :'
 echo '['
  
-for (( c=1; c<=$NUMCORES; c++ ))
+for (( c=1; c<=$NUMCORES; c=c+2 ))
 do
-    echo "{ \"low_power_mode\" : false, \"no_prefetch\" : true, \"asm\" : \"auto\", \"affine_to_cpu\" : $c },"
+    echo "{ \"low_power_mode\" : true, \"no_prefetch\" : true, \"asm\" : \"auto\", \"affine_to_cpu\" : $c },"
 done
 
 echo '],'

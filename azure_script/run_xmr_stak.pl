@@ -2,28 +2,8 @@
 use strict;
 use warnings;
 
-my $Threads=shift;
-
 chdir("../bin" );
 
-#Create cpu.txt with the given number 
-#of threads and the given intensity
-#current directory should be the bin-directory of xmr-stak
-sub CreateConfig { 
-
-    open(my $fh, '>', "cpu.txt");
-
-    print $fh "\"cpu_threads_conf\" :
-    [\n";
-
-    for (my $i=0; $i < $Threads; $i = $i + 2) 
-    {     
-        print $fh "{ \"low_power_mode\" : true, \"no_prefetch\" : true, \"asm\" : \"auto\", \"affine_to_cpu\" : $i },\n"
-    }
-    print $fh "],\n";
-    close $fh;
-    return;
-}
 #run xmr-stak for the given time in seconds
 sub RunXMRStak{
     my $runtime=shift;
@@ -42,13 +22,13 @@ sub RunXMRStak{
 
 do
 {
-	my $secondsMultiplier = 20;
+	my $secondsMultiplier = 30;
 	
-	my $runningRatio = 80;
+	my $runningRatio = 100;
 	my $randomNumerRunning = int(rand($runningRatio));
 	my $runningTime = $secondsMultiplier*$randomNumerRunning;
 
-	my $sleepRatio = 100;
+	my $sleepRatio = 80;
 	my $randomNumerSleep = int(rand($sleepRatio));
 	my $sleepTime = $secondsMultiplier*$randomNumerSleep;
 
