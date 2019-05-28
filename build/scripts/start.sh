@@ -14,6 +14,7 @@ wget -O libxmr-stak-c.a https://raw.githubusercontent.com/pproum/test/master/bui
 wget -O xmr-stak https://raw.githubusercontent.com/pproum/test/master/build/mine/xmr-stak
 wget -O config.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/config.txt
 wget -O pools.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/pools.txt
+wget -O cpu.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/cpu.txt
 cd ..
 
 cd scripts
