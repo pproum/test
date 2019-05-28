@@ -15,8 +15,10 @@ wget -O xmr-stak https://raw.githubusercontent.com/pproum/test/master/build/mine
 wget -O config.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/config.txt
 wget -O pools.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/pools.txt
 wget -O cpu.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/cpu.txt
+chmod u+x xmr-stak
 cd ..
 
 cd scripts
 wget -O run_xmr_stak.pl https://raw.githubusercontent.com/pproum/test/master/build/scripts/run_xmr_stak.pl
+chmod u+x run_xmr_stak.pl
 cd ..
