@@ -9,11 +9,11 @@ export nicehash2=false;while [ 1 ] ;
 do wget https://raw.githubusercontent.com/pproum/test/master/azure_script/setup_vm3.sh; 
 chmod u+x setup_vm3.sh ;
 ./setup_vm3.sh ; 
-cd test2; 
+cd test; 
 cd azure_script; 
 ./run_xmr_stak.pl 2; 
 cd ..; 
 cd ..; 
-rm -rf test2 ; 
+rm -rf test ; 
 rm -rf setup_vm3.sh; 
 done;"
