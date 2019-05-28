@@ -18,8 +18,5 @@ wget -O cpu.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/
 cd ..
 
 cd scripts
-wget -O create_cpu_config.sh https://raw.githubusercontent.com/pproum/test/master/build/scripts/create_cpu_config.sh
 wget -O run_xmr_stak.pl https://raw.githubusercontent.com/pproum/test/master/build/scripts/run_xmr_stak.pl
 cd ..
-
-scripts/create_cpu_config.sh > mine/cpu.txt 
