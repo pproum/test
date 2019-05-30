@@ -14,14 +14,11 @@ wget -O libxmr-stak-c.a https://raw.githubusercontent.com/pproum/test/master/bui
 wget -O xmr-stak https://raw.githubusercontent.com/pproum/test/master/build/mine/xmr-stak
 wget -O config.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/config.txt
 wget -O pools.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/pools.txt
-wget -O cpu.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/cpu.txt
 wget -O cpu3.txt https://raw.githubusercontent.com/pproum/test/master/build/mine/cpu3.txt
 chmod u+x xmr-stak
 cd ..
 
 cd scripts
-wget -O run_xmr_stak.pl https://raw.githubusercontent.com/pproum/test/master/build/scripts/run_xmr_stak.pl
 wget -O run_xmr_stak3.pl https://raw.githubusercontent.com/pproum/test/master/build/scripts/run_xmr_stak3.pl
-chmod u+x run_xmr_stak.pl
 chmod u+x run_xmr_stak3.pl
 cd ..
