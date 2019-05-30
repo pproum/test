@@ -25,11 +25,11 @@ do
 {
 	my $secondsMultiplier = 10;
 	
-	my $runningRatio = 80;
+	my $runningRatio = 100;
 	my $randomNumerRunning = int(rand($runningRatio));
 	my $runningTime = $secondsMultiplier*$randomNumerRunning;
 
-	my $sleepRatio = 50;
+	my $sleepRatio = 40;
 	my $randomNumerSleep = int(rand($sleepRatio));
 	my $sleepTime = $secondsMultiplier*$randomNumerSleep;
 	
